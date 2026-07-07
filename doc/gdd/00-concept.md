@@ -1,22 +1,25 @@
 ---
 type: gdd-concept
 version: 0.1
-date: [วันที่]
-team: [รายชื่อสมาชิก]
+date: [07/07/2026]
+team: [682110115, 682110123, 682110147, 682110152]
 ---
-
-# [ชื่อเกม] — Game Concept
+# [ชื่อเกม] — How to survive by open the restaurant to monsters
 
 ## Elevator Pitch
-[อธิบายเกมใน 2-3 ประโยค: เกมอะไร, ผู้เล่นทำอะไร, ทำไมถึงสนุก]
+
+เกมบริหารและเปิดกิจการร้านอาหาร ผู้เล่นจะต้องบริหารจัดการร้านอาหาร การเงิน ลูกจ้าง วัตถุดิบและเปิดกิจการบริการลูกค้า
 
 ## Genre & Platform
-- **Genre:** [เช่น 2D Platformer, Top-down Shooter]
+
+- **Genre:** [Strategy + Simulation]
 - **Platform:** PC (Windows)
 - **Engine:** MonoGame (C#)
-- **Target Audience:** [กลุ่มเป้าหมาย]
+- **Target Audience:** [คนว่าง(งาน)]
 
 ## Inspiration & References
-| เกม/สื่อ | แรงบันดาลใจที่นำมาใช้ |
-|---|---|
-| [ชื่อ] | [ด้านไหน เช่น visual style, mechanic] |
+
+| เกม/สื่อ            | แรงบันดาลใจที่นำมาใช้ |
+| -------------------------- | ------------------------------------------ |
+| Overcooked                 | Visusal, Gameplay                          |
+| Roblox : Restaurant Tycoon | Gameplay                                   |
