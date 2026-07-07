@@ -1,31 +1,45 @@
 ---
 type: gdd-core-loop
 version: 0.1
-date: [วันที่]
+date: [07/07/2026]
 ---
-
-# [ชื่อเกม] — Core Loop & Gameplay
+# [How to survive by open the restaurant to monsters] — Core Loop & Gameplay
 
 ## Core Loop
+
 ```mermaid
 flowchart LR
-    A[เริ่มต้น] --> B[Action หลัก]
-    B --> C[ผลลัพธ์]
-    C --> D[Reward / Consequence]
-    D --> B
+    A[START] --> B[RESTAURANT MANAGEMENT MENU]
+    B --> C[RECIPE AND INGREDIENT MANAGE MENU]
+    C --> D[OPEN RESTAURANT]
+    D --> E[GET ORDER FROM CUSTOMER]
+    E --> F[COOKING ORDERS]
+    F --> G{DAY END?}
+    G -- Yes --> H[SHIFT SUMMARY]
+    G -- No --> E
+    H --> B
 ```
 
 ## Core Mechanics
-1. [Mechanic หลักที่ 1 — อธิบายสั้น ๆ]
-2. [Mechanic หลักที่ 2]
+
+1. ORDER TAKING (รับออเดอร์จากลูกค้าที่หลากหลาย)
+2. COOKING DYNAMIC (ประกอบส่วนประกอบต่างๆ ของเมนู)
+3. RESTAURANT UPGRADE (อัพเกรดร้านอาหารให้มี facilities มากขึ้น)
+4. RECIPE MANAGEMENT (บริหารจัดการวัตถุดิบให้เหมาะสมกับเมนูที่จะเปิดในวันนั้น)
+5. EMPLOYEE MANAGEMENT (จัดจ้างลูกจ้างเพื่อเบาภาระงานในร้าน)
 
 ## Controls
-| Key | Action |
-|---|---|
-| ← → | Move |
-| Space | Jump |
-| [อื่นๆ] | [action] |
+
+|   Key   | Action         |
+| :------: | -------------- |
+|    w    | move upward    |
+|    a    | move left      |
+|    s    | move downward  |
+|    d    | move right     |
+| spacebar | interact       |
+|   esc   | setting / exit |
 
 ## Win / Lose Condition
-- **ชนะเมื่อ:** [เงื่อนไข]
-- **แพ้เมื่อ:** [เงื่อนไข]
+
+- **ชนะเมื่อ:** [PROFIT REACH THE GOAL IN TIME]]
+- **แพ้เมื่อ:** [CANT REACH THE GOAL IN TIME]
