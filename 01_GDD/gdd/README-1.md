@@ -28,21 +28,22 @@ date: [วันที่]
 
 **เอกสาร:** ไฟล์ใน `docs/01_GDD/` เรียงลำดับด้วย prefix ตัวเลข 2 หลัก (`00-`, `01-`, ...) ตามลำดับที่สร้างขึ้นในแต่ละ Lab — ห้ามสลับเลขไฟล์ที่มีอยู่แล้ว เพิ่มไฟล์ใหม่ให้ต่อเลขถัดไป
 
-## Asset Naming Convention
+## Naming Convention
 
-| Prefix   | ประเภท     | ตัวอย่าง        |
-| -------- | ---------------- | ----------------------- |
-| `spr_` | Sprite / Texture | `spr_player_idle.png` |
-| `sfx_` | Sound Effect     | `sfx_jump.wav`        |
-| `bgm_` | Background Music | `bgm_stage_01.mp3`    |
-| `fnt_` | Font             | `fnt_ui_main.ttf`     |
-| `dat_` | Data / Config    | `dat_enemies.json`    |
+| Prefix | Detail           | Example                |
+| :----: | ---------------- | ---------------------- |
+|  bgm_  | Background music | bgm_home_normal.mp3    |
+|  sfx_  | Sound Effect     | sfx_game_walk.mp3      |
+|  spr_  | Sprite Sheet     | spr_mc_idle.png        |
+|  fnt_  | Font             | fnt_(font name).(font) |
+|  tex_  | Texture          | tex_button.png         |
 
-## 📁 ใครดูแลส่วนไหน
+## Group Task
 
-| คนที่ | รับผิดชอบ  | โฟลเดอร์ staging                |
-| ---------- | ------------------- | --------------------------------------- |
-| 1          | Sprites / Textures  | `docs/02_Assets/_candidates/sprites/` |
-| 2          | Sound Effects (SFX) | `docs/02_Assets/_candidates/sfx/`     |
-| 3          | Music / BGM         | `docs/02_Assets/_candidates/music/`   |
-| 4          | Fonts + Data        | `docs/02_Assets/_candidates/fonts/`   |
+| Detail           | Prefix | Name      | Folder Staging                          |
+| ---------------- | ------ | --------- | --------------------------------------- |
+| Background music | bgm_   | 682110152 | 02_Assets\\_candidates\candidate_bgm.md |
+| Sound Effect     | sfx_   | 682110147 | 02_Assets\\_candidates\candidate_sfx.md |
+| Sprite Sheet     | spr_   | 682110115 | 02_Assets\\_candidates\candidate_spr.md |
+| Font             | fnt_   | 682210152 | 02_Assets\\_candidates\candidate_fnt.md |
+| Texture          | tex_   | 682110115 | 02_Assets\\_candidates\candidate_tex.md |
