@@ -2,7 +2,7 @@
 type: jam-timeline
 version: 0.1
 date: [2026-07-21]
-team: [ชื่อทีม]
+team: [Vier Select]
 ---
 # 48-Hour Timeline — [Vier Select]
 

@@ -1,10 +1,10 @@
 ---
-type: jam-workflow
+type: workflow rule
 version: 0.1
-date: [วันที่]
-team: [ชื่อทีม]
+date: [2026-07-21]
+team: [Vier Selec]
 ---
-# Git Workflow Rules — [ชื่อทีม]
+# Git Workflow Rules — [Vier Selec]
 
 **เป้าหมาย:** ปรับ workflow ให้ "เร็วและปลอดภัยพอ" สำหรับ 48 ชม. — ตกลงกติกาให้ครบก่อนเริ่ม แล้วห้ามเปลี่ยนกลางทาง!
 

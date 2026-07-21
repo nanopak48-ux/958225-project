@@ -1,10 +1,10 @@
 ---
-type: jam-pipeline
+type: pipeline checklist
 version: 0.1
-date: [วันที่]
-team: [ชื่อทีม]
+date: [2026-07-21]
+team: [Vier Selec]
 ---
-# Pipeline Function Checklist — [ชื่อเกม]
+# Pipeline Function Checklist — [Project The Elect]
 
 > เกมทุกแนวต้องมี pipeline ขั้นต่ำนี้ก่อนถึงจะเรียกว่า "เล่นได้" — เติมชื่อผู้รับผิดชอบและติ๊กสถานะระหว่างลงมือทำจริง เพิ่มแถวได้ถ้าเกมของทีมต้องการ module อื่น
 
