@@ -43,7 +43,7 @@
 
 ## MoSCoW Legend
 
-- **Must Have** — จำเป็นต่อ core gameplay loop เกมเล่นไม่ได้ถ้าขาด (MVP)
+- **Must Have** — จำเป็นต่อ core gameplay lop เกมเล่นไม่ได้ถ้าขาด (MVP)
 - **Should Have** — เพิ่มคุณภาพเกม แต่เกมเล่นได้โดยไม่มีก็ได้
 - **Nice to Have** — ทำถ้ามีเวลาเหลือ
 
